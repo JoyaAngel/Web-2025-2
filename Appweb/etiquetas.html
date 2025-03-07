@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="js/saludar.js"></script>
+    <script src="js/cargar.js"></script>
     <title>Etiquetas</title>
   </head>
   <body>
@@ -32,13 +32,39 @@
         Apellido
       </tr>
       <!--td define-->
-      <td>Manuel</td>
-      <td>Negrete</td>
+      <tr>
+        <td>Manuel</td>
+        <td>Negrete</td>
+      </tr>
+      <tr>
+        <td>Fatima</td>
+        <td>Lopez</td>
+      </tr>
+      <tr>
+        <td>Beatriz</td>
+        <td>Pinzón Solano</td>
+      </tr>
     </table>
     <form>
       <!--Label define etiquetas del formulario-->
       <label>Nombre para: </label>
       <input type="text" />
+      <label>Apellido: </label>
+      <input type="text">
+      <label>Fecha cita</label>
+      <input type="datetime-local">
+      <label>Hora</label>
+      <input type="time">
     </form>
+
+    <div id="imagen-container">
+      <img
+        id="imagen-api"
+        alt="Imagen cargada desde API"
+        style="display: none"
+      />
+    </div>
+    <!-- Botón para cargar la imagen-->
+    <button id="cargar-imagen-btn">Cargar Imagen</button>
   </body>
 </html>
