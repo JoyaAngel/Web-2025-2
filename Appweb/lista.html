@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/lista.js"></script>
+    <title>Lista de arreglos</title>
+  </head>
+  <body>
+    <h1>Gestión de elementos de un arreglos</h1>
+
+    <!-- Agregar elemento a un arreglo -->
+    <input
+      type="text"
+      id="nuevoElemento"
+      placeholder="Agregar un nuevo elemento"
+    />
+    <button onclick="agregarElemento()">Agregar Elemento</button>
+    <br /><br />
+
+    <!-- Modificar elemento -->
+    <input type="number" id="indiceModificar" placeholder="Indice" />
+    <input
+      type="text"
+      id="valorModificar"
+      placeholder="Ingrese el valor a modificar"
+    />
+    <button onclick="modificarElemento()">Modoficar Elemento</button>
+    <br /><br />
+
+    <!-- Mostrar la lista de elementos a modificar -->
+    <select id="listaElementos" size="5"></select>
+    <button onclick="eliminarElemento()">Eliminar Elemento</button>
+    <br /><br />
+
+    <!-- Mostrar los elementos actuales del arreglo json-->
+    <h3>Esta es la lista de elementos del arreglo</h3>
+    <p id="mostrarElementos"></p>
+  </body>
+</html>
