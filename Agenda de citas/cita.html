@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/cita.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      window.onload = function () {
+        let citaEditada = JSON.parse(localStorage.getItem("citaEditada"));
+        if (citaEditada) {
+          document.getElementById("nombrePaciente").value =
+            citaEditada.nombrePaciente;
+          document.getElementById("fecha").value = citaEditada.fecha;
+          document.getElementById("hora").value = citaEditada.hora;
+          document.getElementById("razon").value = citaEditada.razon;
+        }
+      };
+    </script>
+    <div>
+      <h3>Registro de formulario</h3>
+      <form id="citaForm">
+        <label>Nombre completo: </label>
+        <input type="text" id="nombrePaciente" placeholder="" />
+        <br />
+        <label>Fecha de cita: </label>
+        <input type="date" id="fecha" placeholder="" />
+        <br />
+        <label>Hora de cita: </label>
+        <input type="time" id="hora" placeholder="" />
+        <br />
+        <label>Razón de la cita</label>
+        <input type="text" id="razon" placeholder="" />
+      </form>
+      <button onclick="agregarCita()">
+        <a href="index.html">Guardar</a>
+      </button>
+    </div>
+  </body>
+</html>
