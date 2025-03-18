@@ -26,7 +26,7 @@ function actualizarTabla() {
             <td>${contacto.telefono}</td>
             <td>${contacto.tipoTelefono}</td>
             <td>${contacto.fechaNacimiento}</td>
-            <td><button onclick="eliminarContacto(${index})">Eliminar</button></td>
+            <td><button class="btn btn-danger" onclick="eliminarContacto(${index})">Eliminar</button></td>
         </tr>`;
         tabla.innerHTML += fila;
     });
