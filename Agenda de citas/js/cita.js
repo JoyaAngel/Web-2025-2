@@ -23,7 +23,7 @@ function agregarCita() {
 
   localStorage.setItem("citas", JSON.stringify(listaCita));
   document.getElementById("citaForm").reset();
-  window.location.href = "index.html";
+  window.location.href = "agenda.html";
 }
 
 function actualizarTabla() {
