@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/cita.js"></script>
+    <title>Gestión de citas</title>
+  </head>
+  <body onload="actualizarTabla()">
+    <h1>Gestión de citas</h1>
+    <button>
+      <a href="cita.html">Agregar Cita</a>
+    </button>
+    <div>
+      <h3>Lista de Citas</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Razón</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody id="tablaCitas"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
