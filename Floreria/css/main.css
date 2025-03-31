@@ -1,0 +1,127 @@
+/*
+Palenta de colores:
+
+Verde menta suave - #B6E3D4 (transmite frescura y naturalidad)
+Rosa pálido - #F8C6D7 (romántico y delicado, como los pétalos de una flor)
+Blanco roto - #F9F6F2 (neutral limpio para fondos o espacios)
+Verde esmeralda - #5C9E7F (profundidad y conexión con la naturaleza)
+Lavanda suave - #D4C4E6 (toque sofisticado y floral)
+Coral cálido - #FFB5A7 (energía y calidez para destacar detalles)
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F6F2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 15px;
+}
+
+img {
+    max-width: 800px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #B6E3D4;
+}
+
+th,
+td {
+    border: 1px solid #5C9E7F;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+form {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    background: #FFB5A7;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    form {
+        width: 40%;
+    }
+}
+
+nav {
+    background-color: #5C9E7F;
+    text-align: center;
+}
+
+.card{
+    background-color: #F8C6D7;
+    border-radius: 15px;
+    align-items: center;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#carrusel {
+    background-color: #F8C6D7;
+    padding-top: 56px;
+
+    #oferta {
+        background-color: red;
+        display: inline-block;
+        padding: 0.2em 0.5em;
+    }
+
+    #producto_temporada {
+        background-color: #D4C4E6;
+        display: inline-block;
+        padding: 0.2em 0.5em;
+    }
+
+    #blog {
+        background-color: #FFB5A7;
+        display: inline-block;
+        padding: 0.2em 0.5em;
+    }
+
+}
+
+#footer {
+    background-color: #5C9E7F;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+header{
+    height: 400px;
+    background-image: url(../img/blog/hero.jpg);
+    background-size: cover;
+    
+    #hero_mascara{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+}

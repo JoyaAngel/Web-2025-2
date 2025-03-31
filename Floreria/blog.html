@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <section id="hero">
+      <!--
+        1. Sección Principal Hero
+        Debe incluir:
+        •	Imagen del producto de temporada.
+        •	Nombre del producto con una breve introducción al artículo.
+        Ejemplo de contenido:
+        "Girasoles: El símbolo de la felicidad y la energía positiva. Descubre por qué son el producto estrella de esta temporada."
+        -->
+      <header class="container-fluid my-2 bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+          <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <i class="fas fa-leaf me-2"></i>
+              <span class="fw-bold">Flora Florita Floripondia</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarContent"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-1">
+                  <a
+                    class="nav-link active d-flex align-items-center"
+                    href="blog.html"
+                  >
+                    <i class="fas fa-images me-1 d-none d-sm-inline"></i>
+                    <span>Producto de temporada</span>
+                  </a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a
+                    class="nav-link active d-flex align-items-center"
+                    href="blog.html#blog"
+                  >
+                    <i class="fas fa-check-circle me-1 d-none d-sm-inline"></i>
+                    <span>Blog</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div
+          id="hero_mascara"
+          class="text-center text-white"
+          style="padding-top: 56px"
+        >
+          <h1 class="display-5 fw-bold my-5">Girasoles</h1>
+          <p class="lead">El símbolo de la felicidad y la energía positiva.</p>
+          <p>Descubre por qué son el producto estrella de esta temporada.</p>
+        </div>
+      </header>
+    </section>
+    <section id="contenido">
+      <!--
+        2. Sección de Contenido blog
+        Esta sección ocupará todo el ancho y permitirá agregar texto, imágenes o videos relacionados con el tema del blog.
+        -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="text-center">
+              Bienvenidos al Blog de Flora Florita Floripondia
+            </h2>
+            <p class="text-center">
+              Aquí encontrarás todo lo relacionado con nuestros productos de
+              temporada.
+            </p>
+            <img
+              src="img/blog/girasoles.jpg"
+              alt="Girasoles"
+              class="img-fluid mb-4"
+            />
+            <p>
+              Los girasoles son una de las flores más queridas y reconocibles en
+              todo el mundo. Su color amarillo brillante y su capacidad para
+              seguir la luz del sol los convierte en un símbolo de alegría y
+              positividad.
+            </p>
+            <p>
+              En nuestro blog, exploraremos diferentes aspectos de los
+              girasoles, desde su cultivo hasta su uso en arreglos florales y
+              decoraciones. ¡No te lo pierdas!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="my-5 border-3 border-top border-success opacity-50" />
+    <section id="comentarios">
+      <!--
+        3. Sección de agregar comentario
+        Debe incluir un formulario con los siguientes campos:
+        •	Nombre
+        •	Apellido
+        •	Comentario
+        El diseño del formulario debe ser responsivo usando las clases de Bootstrap.
+        -->
+      <div class="container">
+        <h2 class="text-center">Deja tu Comentario</h2>
+        <form action="#" method="post">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required />
+            </div>
+            <div class="col-md-6">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido" required />
+            </div>
+            <div class="col-12">
+              <label for="comentario" class="form-label">Comentario</label>
+              <textarea
+                class="form-control"
+                id="comentario"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <div class="col-12 text-center mt-3">
+              <button type="submit" class="btn btn-primary">
+                Enviar Comentario
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
