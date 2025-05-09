@@ -1,26 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|c:\\users\\pc white wolf\\documents\\escuela\\sexto semestre\\desarrollo de aplicaciones web\\repositorio\\web-2025-2\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{422BDEE6-AABF-4544-BB13-3664B75322A0}|WebAPI\\WebAPI.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\webapi\\webapi\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422BDEE6-AABF-4544-BB13-3664B75322A0}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|c:\\users\\pc white wolf\\documents\\escuela\\sexto semestre\\desarrollo de aplicaciones web\\repositorio\\web-2025-2\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{422BDEE6-AABF-4544-BB13-3664B75322A0}|WebAPI\\WebAPI.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422BDEE6-AABF-4544-BB13-3664B75322A0}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|c:\\users\\pc white wolf\\documents\\escuela\\sexto semestre\\desarrollo de aplicaciones web\\repositorio\\web-2025-2\\webapi\\webapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|c:\\users\\pc white wolf\\documents\\escuela\\sexto semestre\\desarrollo de aplicaciones web\\repositorio\\web-2025-2\\webapi\\webapi\\controllers\\alumnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\alumnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|c:\\users\\pc white wolf\\documents\\escuela\\sexto semestre\\desarrollo de aplicaciones web\\repositorio\\web-2025-2\\webapi\\webapi\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28E5ADAD-C419-47E9-8FEE-6CF4A2EB1054}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\za2q3gqh..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +21,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABVAAAAAAAAAA==",
+              "Title": "DoctoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\WebAPI\\WebAPI\\Controllers\\DoctoresController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DoctoresController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\WebAPI\\WebAPI\\Controllers\\DoctoresController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\DoctoresController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:17:23.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AlumnosController.cs",
-              "DocumentMoniker": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Controllers\\AlumnosController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AlumnosController.cs",
-              "ToolTip": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Controllers\\AlumnosController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\AlumnosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:25:51.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Models\\Doctor.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\Doctor.cs",
-              "ToolTip": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Models\\Doctor.cs",
-              "RelativeToolTip": "WebAPI\\Models\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:00:11.589Z",
+              "WhenOpened": "2025-04-25T15:12:24.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T04:04:18.591Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:37:47.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Data\\ApiDbContext.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Data\\ApiDbContext.cs",
-              "ToolTip": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Repositorio\\Web-2025-2\\WebAPI\\WebAPI\\Data\\ApiDbContext.cs",
-              "RelativeToolTip": "WebAPI\\Data\\ApiDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T04:02:46.159Z"
+              "DocumentIndex": 2,
+              "Title": "za2q3gqh..sql",
+              "DocumentMoniker": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\za2q3gqh..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\za2q3gqh..sql",
+              "ToolTip": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\za2q3gqh..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\za2q3gqh..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-25T15:10:11.849Z"
             }
           ]
         }
