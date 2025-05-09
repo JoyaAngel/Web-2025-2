@@ -1,0 +1,798 @@
+# HTML Y BOOTSTRAP
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/cita.js"></script>
+    <title>Gestión de citas</title>
+  </head>
+  <body onload="actualizarTabla()">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Agenda Telefónica</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="etiquetas.html">Etiquetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Formulario</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <h3 class="text-primary-emphasis">Lista de Citas</h3>
+      <table class="table-responsive-lg mt-4" border="1">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Razón</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody id="tablaCitas"></tbody>
+      </table>
+    </div>
+    <div>
+      <button></button>
+    </div>
+  </body>
+</html>
+
+<html>
+<head>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="row">
+<!-- justificar elementos -->
+<p class="text-start text-success">Texto alineado a la izquierda</p>
+<p class="text-center text-secondary">Texto centrado</p>
+<p class="text-end text-warning">Texto alineado a la derecha</p>
+</div>
+
+<!-- uso de d-flex y justificacion de elementos-->
+<div class="row">
+<div class="d-flex justify-content-center">
+    <button class="btn btn-primary">Botón centrado</button>
+</div>
+<div class="d-flex justify-content-start">
+    <button class="btn btn-secondary">Botón alineado a la izquierda</button>
+</div>
+<div class="d-flex justify-content-end">
+    <button class="btn btn-warning">Botón alineado a la derecha</button>
+</div>
+<div class="d-flex justify-content-between">
+    <button class="btn btn-dark">Distribuye el espacio de elementos</button>
+</div>
+<div class="d-flex justify-content-around">
+    <button class="btn btn-info">Espacio alrededor de los elementos</button>
+</div>
+
+</div>
+
+<!-- Alineación de elementos -->
+<div class="row">
+<div class="d-flex align-items-start" style="height: 200px; border: 1px solid #000;">
+<div class="p-2 bg-primary text-white">Elemento alineado hacia arriba</div>
+</div>
+</div>
+<div class="row">
+<div class="d-flex align-items-center" style="height: 200px; border: 1px solid #000;">
+<div class="p-2 bg-info text-white">Elemento centrado</div>
+</div>
+</div>
+<div class="row">
+<div class="d-flex align-items-end" style="height: 200px; border: 1px solid #000;">
+<div class="p-2 bg-secondary text-white">Elemento alineado hacia abajo</div>
+</div>
+</div>
+
+<!-- columnas col -->
+<div class="row"> <!-- tres columnas iguales-->
+    <div class="col bg-light">Columna 1</div>
+    <div class="col bg-secondary text-white">Columna 2</div>
+    <div class="col bg-light">Columna 3</div>
+</div>
+
+<div class="row">
+    <div class="col-4 bg-light">Columna 1  que ocupa espacio de 4 columnas</div>
+    <div class="col-8 bg-secondary text-white">Columna 2 que ocupa espacio de 8 columnas</div>
+</div>
+
+<!-- contenido visible solo para dispositivos -->
+<p class="d-none d-md-block">Este texto solo se verá en pantallas medianas o más grandes.</p>
+<p class="d-block d-md-none">Este texto solo se verá en pantallas pequeñas.</p>
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/cita.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      window.onload = function () {
+        let citaEditada = JSON.parse(localStorage.getItem("citaEditada"));
+        if (citaEditada) {
+          document.getElementById("nombrePaciente").value =
+            citaEditada.nombrePaciente;
+          document.getElementById("fecha").value = citaEditada.fecha;
+          document.getElementById("hora").value = citaEditada.hora;
+          document.getElementById("razon").value = citaEditada.razon;
+        }
+      };
+    </script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Agenda Telefónica</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="agenda.html">Inicio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <h3>Registro de formulario</h3>
+      <form id="citaForm">
+        <label>Nombre completo: </label>
+        <input type="text" id="nombrePaciente" placeholder="" />
+        <br />
+        <label>Fecha de cita: </label>
+        <input type="date" id="fecha" placeholder="" />
+        <br />
+        <label>Hora de cita: </label>
+        <input type="time" id="hora" placeholder="" />
+        <br />
+        <label>Razón de la cita</label>
+        <input type="text" id="razon" placeholder="" />
+      </form>
+      <button onclick="agregarCita()">
+        <a href="agenda.html">Guardar</a>
+      </button>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefónica</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/contacto.js"></script>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="etiquetas.html">Etiquetas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Formulario</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h2 class="text-bg-primary">Agenda Telefónica</h2>
+    <form id="contactoForm">
+        <input class="form-control" type="text" id="nombre" placeholder="Nombre" required>
+        <input class="form-control" type="text" id="primerApellido" placeholder="Primer Apellido" required>
+        <input class="form-control"  type"text" id="segundoApellido" placeholder="Segundo Apellido" required>
+        <input class="form-control"  type="tel" id="telefono" placeholder="Teléfono" required>
+        <select class="form-select" id="tipoTelefono">
+            <option value="Móvil">Móvil</option>
+            <option value="Fijo">Fijo</option>
+        </select>
+        <input class="form-control" type="date" id="fechaNacimiento" required>
+        <button class="btn btn-primary" type="button" onclick="agregarContacto()">Agregar</button>
+    </form>
+
+    <h3 class="text-primary-emphasis">Lista de Contactos</h3>
+    <div class="table-responsive d-none d-md-block">
+        <table class="table table-striped table-bordered mt-5">
+            <thead class="table-secondary">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Primer Apellido</th>
+                    <th>Segundo Apellido</th>
+                    <th>Teléfono</th>
+                    <th>Tipo</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tablaContactos"></tbody>
+        </table>
+    </div>
+
+   <div class="d-block d-md-none">
+    <ul class="list-group mt-5" id="listaContactosMovil"></ul>
+   </div> 
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/cargar.js"></script>
+    <title>Etiquetas bootstrap</title>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="etiquetas.html">Etiquetas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Formulario</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container mt-4">
+        <h1 class="text-primary">Encabezado principal</h1>
+        <h2 class="text-secondary">Encabezados subsecuente</h2>
+        <h3 class="text-muted">Encabezados subsecuente</h3>
+        <p class="lead">Etiqueta párrafo con estilo destacado</p>
+        <a href="#" class="btn btn-link">Esto es un enlace o hipervínculo</a>
+
+        <div class="text-center">
+            <img src="img/Mesmerizer.jpg" class="img-fluid rounded" alt="Este atributo describe una imagen">
+        </div>
+
+        <!-- Tabla -->
+        <div class="table-responsive mt-4">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manuel</td>
+                        <td>Negrete</td>
+                    </tr>
+                    <tr>
+                        <td>Fatima</td>
+                        <td>López</td>
+                    </tr>
+                    <tr>
+                        <td>Vero</td>
+                        <td>Martínez</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Formulario -->
+        <form class="mt-4">
+            <div class="mb-3">
+                <label class="form-label">Nombre:</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Apellido:</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Fecha cita:</label>
+                <input type="datetime-local" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Hora cita:</label>
+                <input type="time" class="form-control">
+            </div>
+        </form>
+
+        <!-- Imagen API -->
+        <div id="imagen-container" class="text-center mt-4">
+            <img id="imagen-api" class="img-fluid" alt="Imagen cargada desde API" style="display: none;">
+        </div>
+
+        <!-- Botón para cargar la imagen -->
+        <div class="text-center mt-3">
+            <button id="cargar-imagen-btn" class="btn btn-primary">Cargar Imagen</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/cargar.js"></script>
+    <title>Etiquetas</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="etiquetas.html">Etiquetas</a></li>
+          <li><a href="">Formulario</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Encabezado principal</h1>
+    <h2>Encabezado subsecuente</h2>
+    <h3>Encabezado subsecuente</h3>
+    <p>Etiqueta párrafo</p>
+    <a href="#">Esto es un enlace o hipervínculo</a>
+    <img src="img/Mesmerizer.jpg" alt="Este atributo describe una imagen" />
+    <table>
+      <!--Tr define las columnas-->
+      <tr>
+        Nombre
+      </tr>
+      <tr>
+        Apellido
+      </tr>
+      <!--td define-->
+      <tr>
+        <td>Manuel</td>
+        <td>Negrete</td>
+      </tr>
+      <tr>
+        <td>Fatima</td>
+        <td>Lopez</td>
+      </tr>
+      <tr>
+        <td>Beatriz</td>
+        <td>Pinzón Solano</td>
+      </tr>
+    </table>
+    <form>
+      <!--Label define etiquetas del formulario-->
+      <label>Nombre para: </label>
+      <input type="text" />
+      <label>Apellido: </label>
+      <input type="text">
+      <label>Fecha cita</label>
+      <input type="datetime-local">
+      <label>Hora</label>
+      <input type="time">
+    </form>
+
+    <div id="imagen-container">
+      <img
+        id="imagen-api"
+        alt="Imagen cargada desde API"
+        style="display: none"
+      />
+    </div>
+    <!-- Botón para cargar la imagen-->
+    <button id="cargar-imagen-btn">Cargar Imagen</button>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/saludar.js"></script>
+    <title>Mi pagina web</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="etiquetas.html">Etiquetas</a></li>
+          <li><a href="lista.html">Lista de arreglos</a></li>
+          <li><a href="contacto.html">Contactos</a></li>
+          <li><a href="">Formulario</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1 id="cabecera">Te quiero mucho dave</h1>
+    <button onclick="saludar()">Haz clic aquí</button>
+    <h1 id="elemento"></h1>
+    <div id="row">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Mesmerizer.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/Mesmerizer Dos.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/Mesmerizer Tres.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/lista.js"></script>
+    <title>Lista de arreglos</title>
+  </head>
+  <body>
+    <h1>Gestión de elementos de un arreglos</h1>
+
+    <!-- Agregar elemento a un arreglo -->
+    <input
+      type="text"
+      id="nuevoElemento"
+      placeholder="Agregar un nuevo elemento"
+    />
+    <button onclick="agregarElemento()">Agregar Elemento</button>
+    <br /><br />
+
+    <!-- Modificar elemento -->
+    <input type="number" id="indiceModificar" placeholder="Indice" />
+    <input
+      type="text"
+      id="valorModificar"
+      placeholder="Ingrese el valor a modificar"
+    />
+    <button onclick="modificarElemento()">Modoficar Elemento</button>
+    <br /><br />
+
+    <!-- Mostrar la lista de elementos a modificar -->
+    <select id="listaElementos" size="5"></select>
+    <button onclick="eliminarElemento()">Eliminar Elemento</button>
+    <br /><br />
+
+    <!-- Mostrar los elementos actuales del arreglo json-->
+    <h3>Esta es la lista de elementos del arreglo</h3>
+    <p id="mostrarElementos"></p>
+  </body>
+</html>
+
+# JavaScript
+document.addEventListener("DOMContentLoaded", () => {
+  const imagenApi = document.getElementById("imagen-api");
+  const botonCargar = document.getElementById("cargar-imagen-btn");
+  const apiUrl = "https://picsum.photos/800/600";
+
+  botonCargar.addEventListener("click", () => {
+    fetch(apiUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("No se pudo cargar la imagen mi chavo");
+        }
+        return response.url;
+      })
+      .then((imagenUrl) => {
+        imagenApi.src = imagenUrl;
+        imagenApi.style.display = "block";
+      })
+      .catch((error) => {
+        console.error("Error al cargar la imagen", error);
+      });
+  });
+});
+
+let listaCita = [];
+
+function agregarCita() {
+  let nombrePaciente = document.getElementById("nombrePaciente").value;
+  let fecha = document.getElementById("fecha").value;
+  let hora = document.getElementById("hora").value;
+  let razon = document.getElementById("razon").value;
+
+  if (nombrePaciente === "" || fecha === "" || hora === "" || razon === "") {
+    alert("Todos los campos son requeridos");
+    return;
+  }
+
+  let listaCita = JSON.parse(localStorage.getItem("citas")) || [];
+  let citaEditada = JSON.parse(localStorage.getItem("citaEditada"));
+
+  if (citaEditada) {
+    listaCita[citaEditada.index] = { nombrePaciente, fecha, hora, razon };
+    localStorage.removeItem("citaEditada");
+  } else {
+    listaCita.push({ nombrePaciente, fecha, hora, razon });
+  }
+
+  localStorage.setItem("citas", JSON.stringify(listaCita));
+  document.getElementById("citaForm").reset();
+  window.location.href = "index.html";
+}
+
+function actualizarTabla() {
+  let tabla = document.getElementById("tablaCitas");
+  let listaCita = JSON.parse(localStorage.getItem("citas")) || [];
+
+  tabla.innerHTML = "";
+  listaCita.forEach((cita, index) => {
+    let fila = `<tr>
+        <td>${cita.nombrePaciente}</td>
+        <td>${cita.fecha}</td>
+        <td>${cita.hora}</td>
+        <td>${cita.razon}</td>
+        <td>
+          <button onclick="eliminarCita(${index})">Eliminar</button>
+          <br />
+          <br />
+          <button onclick="editarCita(${index})">
+            <a href="cita.html">Editar</a>
+          </button>
+        </td>
+    </tr>`;
+    tabla.innerHTML += fila;
+  });
+}
+
+function eliminarCita(index) {
+  let listaCita = JSON.parse(localStorage.getItem("citas")) || [];
+  listaCita.splice(index, 1);
+  localStorage.setItem("citas", JSON.stringify(listaCita));
+  actualizarTabla();
+}
+
+function editarCita(index) {
+  let listaCita = JSON.parse(localStorage.getItem("citas")) || [];
+  localStorage.setItem(
+    "citaEditada",
+    JSON.stringify({ index, ...listaCita[index] })
+  );
+  window.location.href = "cita.html";
+}
+
+let listaContactos = [];
+
+function agregarContacto() {
+    let contacto = {
+        nombre: document.getElementById("nombre").value,
+        primerApellido: document.getElementById("primerApellido").value,
+        segundoApellido: document.getElementById("segundoApellido").value,
+        telefono: document.getElementById("telefono").value,
+        tipoTelefono: document.getElementById("tipoTelefono").value,
+        fechaNacimiento: document.getElementById("fechaNacimiento").value
+    };
+    
+    listaContactos.push(contacto);
+    actualizarTabla();
+    document.getElementById("contactoForm").reset();
+}
+
+function actualizarTabla() {
+    let tabla = document.getElementById("tablaContactos");
+    let listaMovil = document.getElementById("listaContactosMovil");
+    
+    tabla.innerHTML = "";
+    listaMovil.innerHTML="";
+    listaContactos.forEach((contacto, index) => {
+        let fila = `<tr>
+            <td>${contacto.nombre}</td>
+            <td>${contacto.primerApellido}</td>
+            <td>${contacto.segundoApellido}</td>
+            <td>${contacto.telefono}</td>
+            <td>${contacto.tipoTelefono}</td>
+            <td>${contacto.fechaNacimiento}</td>
+            <td><button class="btn btn-danger" onclick="eliminarContacto(${index})">Eliminar</button></td>
+        </tr>`;
+        tabla.innerHTML += fila;
+
+        let itemMovil= `<li class="list-group-item">
+            <strong>Nombre: </strong> ${contacto.nombre} ${contacto.primerApellido} ${contacto.segundoApellido} <br>
+            <strong>Telefono: </strong> ${contacto.telefono} (${contacto.tipoTelefono}) <br>
+            <strong>Fecha nacimiento: </strong> ${contacto.fechaNacimiento}<br>
+            <button class="btn btn-danger mt-2" onclick="eliminarContacto(${index})">Eliminar</button>
+            </li>`;
+
+        listaMovil.innerHTML += itemMovil;
+
+
+
+
+    });
+}
+
+function eliminarContacto(indice) {
+    listaContactos.splice(indice, 1);
+    actualizarTabla();
+}
+
+let arreglo = []; //Declaración de un arreglo
+
+function actualizarLista() {
+  //Declaración de una función para actualizar listas
+
+  let lista = document.getElementById("listaElementos");
+  let mostrar = document.getElementById("mostrarElementos");
+  lista.innerHTML = "";
+  arreglo.forEach((elemento, index) => {
+
+    let opcion = document.createElement("option");
+    opcion.value = index;
+    opcion.textContent = `${index}: ${elemento}`;
+    lista.appendChild(opcion);
+  });
+
+  mostrar.textContent = JSON.stringify(arreglo);
+}
+
+function agregarElemento() {
+  let nuevoElemento = document.getElementById("nuevoElemento").value;
+  if (nuevoElemento) {
+    arreglo.push(nuevoElemento);
+    document.getElementById("nuevoElemento").value = "";
+    actualizarLista();
+  }
+}
+
+function modificarElemento() {
+  let indice = parseInt(document.getElementById("indiceModificar").value);
+  let valor = document.getElementById("valorModificar").value;
+  if(!isNaN(indice) && indice >= 0 && indice < arreglo.length && valor){
+    arreglo[indice] = valor;
+    actualizarLista();
+  }
+}
+
+
+function eliminarElemento(){
+    let lista = document.getElementById("listaElementos");
+    let indice = lista.value;
+    if(indice !== ""){
+        arreglo.splice(indice, 1);
+        actualizarLista();
+    }
+}
+
+function saludar(){
+    alert("Hola Dave, te quiero mucho");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+img {
+    max-width: 800px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+form {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    background: hotpink;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

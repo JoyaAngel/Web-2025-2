@@ -21,7 +21,8 @@ builder.Services.AddCors(options =>
 
 // Agregamos el servicio de Entity Framework Core SQL server y la cadena de conexión
 
-builder.Services.AddDbContext<ApiDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DbWebApi")));
+builder.Services.AddDbContext<ApiDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();
 
 var app = builder.Build();
