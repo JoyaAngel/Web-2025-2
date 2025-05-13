@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace FarmaciaApp.Models
 {
@@ -9,6 +10,7 @@ namespace FarmaciaApp.Models
         [Required]
         public string? Nombre { get; set; }
         public string? Descripcion { get; set; }
+        [Precision(10, 2)]
         public Decimal Precio { get; set; }
         public string? RutaImagen { get; set; }
 
