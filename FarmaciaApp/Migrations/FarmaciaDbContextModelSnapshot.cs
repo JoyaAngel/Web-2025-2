@@ -128,6 +128,58 @@ namespace FarmaciaApp.Migrations
                     b.ToTable("Medicamentos");
                 });
 
+            modelBuilder.Entity("FarmaciaApp.Models.Proveedor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CodigoPostal")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreComercial")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RegimenFiscal")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Rfc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Proovedores");
+                });
+
+            modelBuilder.Entity("FarmaciaApp.Models.ProveedorMedicamento", b =>
+                {
+                    b.Property<int>("ProveedorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MedicamentoId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("piezas")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProveedorId", "MedicamentoId");
+
+                    b.HasIndex("MedicamentoId");
+
+                    b.ToTable("ProveedorMedicamentos");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -261,6 +313,25 @@ namespace FarmaciaApp.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("FarmaciaApp.Models.ProveedorMedicamento", b =>
+                {
+                    b.HasOne("FarmaciaApp.Models.Medicamento", "Medicamento")
+                        .WithMany("ProveedorMedicamentos")
+                        .HasForeignKey("MedicamentoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FarmaciaApp.Models.Proveedor", "Proveedor")
+                        .WithMany("ProveedorMedicamentos")
+                        .HasForeignKey("ProveedorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Medicamento");
+
+                    b.Navigation("Proveedor");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -310,6 +381,16 @@ namespace FarmaciaApp.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("FarmaciaApp.Models.Medicamento", b =>
+                {
+                    b.Navigation("ProveedorMedicamentos");
+                });
+
+            modelBuilder.Entity("FarmaciaApp.Models.Proveedor", b =>
+                {
+                    b.Navigation("ProveedorMedicamentos");
                 });
 #pragma warning restore 612, 618
         }

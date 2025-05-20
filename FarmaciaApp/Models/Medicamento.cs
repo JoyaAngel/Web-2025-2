@@ -14,5 +14,6 @@ namespace FarmaciaApp.Models
         public Decimal Precio { get; set; }
         public string? RutaImagen { get; set; }
 
+        public ICollection<ProveedorMedicamento> ProveedorMedicamentos { get; set; }
     }
 }

@@ -10,8 +10,28 @@ namespace FarmaciaApp.Data
         {
         }
         public DbSet<Medicamento> Medicamentos { get; set; }
+        public DbSet<Proveedor> Proovedores { get; set; }
+        public DbSet<ProveedorMedicamento> ProveedorMedicamentos { get; set; }
 
-        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ProveedorMedicamento>()
+            .HasKey(pm => new { pm.ProveedorId, pm.MedicamentoId }); 
+
+            modelBuilder.Entity<ProveedorMedicamento>()
+                .HasOne(pm => pm.Proveedor)
+                .WithMany(p => p.ProveedorMedicamentos)
+                .HasForeignKey(pm => pm.ProveedorId);
+
+            modelBuilder.Entity<ProveedorMedicamento>()
+                .HasOne(pm => pm.Medicamento)
+                .WithMany(m => m.ProveedorMedicamentos)
+                .HasForeignKey(pm => pm.MedicamentoId);
+        }
+
+
 
     }
 }

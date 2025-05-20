@@ -4113,6 +4113,8 @@ wwwroot\adminlte\plugins\uplot\uPlot.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\farmaciapp.png
+wwwroot\images\fondo 1.jpg
+wwwroot\images\images (1).jpg
 wwwroot\images\producto1.jpg
 wwwroot\images\producto2.jpg
 wwwroot\images\producto3.jpg

@@ -1,0 +1,61 @@
+﻿@model FarmaciaApp.Models.Proveedor
+
+@{
+    ViewData["Title"] = "Registrar Proveedor";
+    Layout = "_LayoutAdminLTE";
+}
+
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <h1>@ViewData["Title"]</h1>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Nuevo Proveedor</h3>
+                </div>
+
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div class="card-body">
+
+                        <div class="form-group">
+                            <label asp-for="NombreComercial">Nombre Comercial</label>
+                            <input asp-for="NombreComercial" class="form-control" />
+                            <span asp-validation-for="NombreComercial" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Rfc">RFC</label>
+                            <textarea asp-for="Rfc" class="form-control"></textarea>
+                            <span asp-validation-for="Rfc" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="CodigoPostal">Codigo Postal</label>
+                            <textarea asp-for="CodigoPostal" class="form-control"></textarea>
+                            <span asp-validation-for="CodigoPostal" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="RegimenFiscal">Regimen Fiscal</label>
+                            <input asp-for="RegimenFiscal" class="form-control" />
+                            <span asp-validation-for="RegimenFiscal" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                        <a asp-action="Index" class="btn btn-secondary">Volver</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+

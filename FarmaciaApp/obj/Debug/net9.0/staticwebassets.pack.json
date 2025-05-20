@@ -8233,6 +8233,14 @@
       "PackagePath": "staticwebassets\\images\\farmaciapp.png"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\wwwroot\\images\\fondo 1.jpg",
+      "PackagePath": "staticwebassets\\images\\fondo 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\wwwroot\\images\\images (1).jpg",
+      "PackagePath": "staticwebassets\\images\\images (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\wwwroot\\images\\producto1.jpg",
       "PackagePath": "staticwebassets\\images\\producto1.jpg"
     },

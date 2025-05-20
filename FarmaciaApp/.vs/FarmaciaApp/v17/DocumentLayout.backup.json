@@ -3,59 +3,45 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Migrations\\20250513161310_IdentityModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250513161310_IdentityModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\data\\farmaciadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:data\\farmaciadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\views\\proveedores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:views\\proveedores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\data\\farmaciadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:data\\farmaciadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\models\\farmaciauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:models\\farmaciauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\q1aek4z5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\migrations\\20250506154027_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:migrations\\20250506154027_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\q1aek4z5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|c:\\users\\usuario\\documents\\appsweb\\web-2025-2\\farmaciaapp\\models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBC1711D-6D88-4152-BE7A-46650FC22360}|FarmaciaApp.csproj|solutionrelative:models\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\jeyrn2e5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\Temp\\q1aek4z5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,185 +51,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250513161310_IdentityModels.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Migrations\\20250513161310_IdentityModels.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250513161310_IdentityModels.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Migrations\\20250513161310_IdentityModels.cs",
-              "RelativeToolTip": "Migrations\\20250513161310_IdentityModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:13:10.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T16:04:00.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:56:49.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:49:58.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:52:38.577Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:45:37.339Z",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Proveedores\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proveedores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Proveedores\\Create.cshtml",
+              "RelativeToolTip": "Views\\Proveedores\\Create.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwC0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:26:12.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FarmaciaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Data\\FarmaciaDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\FarmaciaDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Data\\FarmaciaDbContext.cs",
-              "RelativeToolTip": "Data\\FarmaciaDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProveedoresController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:30:33.878Z",
+              "WhenOpened": "2025-05-20T16:38:32.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "FarmaciaUser.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Models\\FarmaciaUser.cs",
-              "RelativeDocumentMoniker": "Models\\FarmaciaUser.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Models\\FarmaciaUser.cs",
-              "RelativeToolTip": "Models\\FarmaciaUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Proveedores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proveedores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Proveedores\\Index.cshtml",
+              "RelativeToolTip": "Views\\Proveedores\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:30:40.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FarmaciaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Data\\FarmaciaDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\FarmaciaDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Data\\FarmaciaDbContext.cs",
+              "RelativeToolTip": "Data\\FarmaciaDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T15:25:36.877Z"
+              "WhenOpened": "2025-05-20T16:41:41.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\q1aek4z5..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\q1aek4z5..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-20T16:44:56.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "4e458de4-d623-4c42-b037-7964c0dab156",
+        "Display": 0,
+        "X": 711,
+        "Y": 122,
+        "Width": 1309,
+        "Height": 766,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Models\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Models\\Proveedor.cs",
+              "RelativeToolTip": "Models\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:22:14.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "3dd1608c-1fda-4635-a98c-44d1ce3809e9",
+        "Display": 0,
+        "X": 683,
+        "Y": 109,
+        "Width": 1309,
+        "Height": 729,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:38:21.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "12522ff0-7fb2-4cdd-82eb-a1d3c57963c6",
+        "Display": 0,
+        "X": 925,
+        "Y": 146,
+        "Width": 449,
+        "Height": 614,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:51:52.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T15:47:22.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T15:45:56.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250506154027_Inicial.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Migrations\\20250506154027_Inicial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250506154027_Inicial.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Migrations\\20250506154027_Inicial.cs",
-              "RelativeToolTip": "Migrations\\20250506154027_Inicial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:40:27.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-06T15:24:53.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Medicamento.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Models\\Medicamento.cs",
-              "RelativeDocumentMoniker": "Models\\Medicamento.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Web-2025-2\\FarmaciaApp\\Models\\Medicamento.cs",
-              "RelativeToolTip": "Models\\Medicamento.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:32:09.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "jeyrn2e5..sql",
-              "DocumentMoniker": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\jeyrn2e5..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\jeyrn2e5..sql",
-              "ToolTip": "C:\\Users\\Usuario\\AppData\\Local\\Temp\\jeyrn2e5..sql",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\jeyrn2e5..sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-06T15:28:52.105Z"
+              "WhenOpened": "2025-05-20T16:54:25.758Z",
+              "EditorCaption": ""
             }
           ]
         }

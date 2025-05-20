@@ -1,0 +1,38 @@
+﻿@model IEnumerable<FarmaciaApp.Models.Proveedor>
+@{
+
+    ViewData["Title"] = "Proveedor";
+
+    Layout = "_LayoutAdminLTE";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Listado de Proveedores</h2>
+    <a asp-action="Create" class="btn btn-primary mb-3">Registrar Proveedor</a>
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nombre Comercial</th>
+                <th>RFC</th>
+                <th>Codigo Postal</th>
+                <th>Regimen Fiscal</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NombreComercial</td>
+                    <td>$@item.Rfc</td>
+                    <td>$@item.CodigoPostal</td>
+                    <td>$@item.RegimenFiscal</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirm('¿Desea eliminar este proveedor?')">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
